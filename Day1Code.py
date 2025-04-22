@@ -22,7 +22,7 @@ def part2(col1, col2) :
 values = []
 column1 = []
 column2= []
-
+     
 print("Working directory is : ", os.getcwd())
 with open("PuzzleInput.txt", 'r') as file : 
     distance = part1(file)
